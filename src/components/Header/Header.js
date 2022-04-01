@@ -74,12 +74,14 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #122e40;
+  z-index: 1;
 `
 const Wrapper = styled.div`
   width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 `
 const Navigator = styled.div`
   width: 80%;
@@ -112,7 +114,7 @@ const Nav = styled.div`
   align-items: center;
   justify-content: center;
   color: #fff;
-  // font-family: moo lah lah;
+  /* font-family: moo lah lah; */
   span{
     margin-left: 3px;
     cursor: pointer;

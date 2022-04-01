@@ -46,7 +46,7 @@ export default Slides;
 const Container = styled.div``;
 
 const Carosel = styled(Slider)`
-/* overflow: hidden; */
+overflow: hidden;
   & > button{
     height: 100%;
     width: 5vw;
